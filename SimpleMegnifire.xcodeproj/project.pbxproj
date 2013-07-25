@@ -16,6 +16,14 @@
 		2D957E031797F12F002F5073 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E021797F12F002F5073 /* Default.png */; };
 		2D957E051797F12F002F5073 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E041797F12F002F5073 /* Default@2x.png */; };
 		2D957E071797F12F002F5073 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E061797F12F002F5073 /* Default-568h@2x.png */; };
+		2D957E0E1797F150002F5073 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E0D1797F150002F5073 /* MainWindow.xib */; };
+		2D957E121797F72D002F5073 /* MAinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D957E101797F72D002F5073 /* MAinViewController.m */; };
+		2D957E131797F72D002F5073 /* MAinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E111797F72D002F5073 /* MAinViewController.xib */; };
+		2D957E161797F91A002F5073 /* MyMegView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D957E151797F91A002F5073 /* MyMegView.m */; };
+		2D957E181797FAF8002F5073 /* 300_.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E171797FAF8002F5073 /* 300_.png */; };
+		2D957E1A1797FDA0002F5073 /* node.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E191797FDA0002F5073 /* node.png */; };
+		2D957E1C1797FEF9002F5073 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D957E1B1797FEF9002F5073 /* QuartzCore.framework */; };
+		2D957E1E17980178002F5073 /* loopmask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D957E1D17980178002F5073 /* loopmask.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,16 @@
 		2D957E021797F12F002F5073 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2D957E041797F12F002F5073 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2D957E061797F12F002F5073 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D957E0D1797F150002F5073 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		2D957E0F1797F72D002F5073 /* MAinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAinViewController.h; sourceTree = "<group>"; };
+		2D957E101797F72D002F5073 /* MAinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAinViewController.m; sourceTree = "<group>"; };
+		2D957E111797F72D002F5073 /* MAinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAinViewController.xib; sourceTree = "<group>"; };
+		2D957E141797F91A002F5073 /* MyMegView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMegView.h; sourceTree = "<group>"; };
+		2D957E151797F91A002F5073 /* MyMegView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMegView.m; sourceTree = "<group>"; };
+		2D957E171797FAF8002F5073 /* 300_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 300_.png; sourceTree = "<group>"; };
+		2D957E191797FDA0002F5073 /* node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = node.png; sourceTree = "<group>"; };
+		2D957E1B1797FEF9002F5073 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D957E1D17980178002F5073 /* loopmask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopmask.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D957E1C1797FEF9002F5073 /* QuartzCore.framework in Frameworks */,
 				2D957DF11797F12F002F5073 /* UIKit.framework in Frameworks */,
 				2D957DF31797F12F002F5073 /* Foundation.framework in Frameworks */,
 				2D957DF51797F12F002F5073 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +70,11 @@
 		2D957DE41797F12F002F5073 = {
 			isa = PBXGroup;
 			children = (
+				2D957E0F1797F72D002F5073 /* MAinViewController.h */,
+				2D957E101797F72D002F5073 /* MAinViewController.m */,
+				2D957E111797F72D002F5073 /* MAinViewController.xib */,
+				2D957E141797F91A002F5073 /* MyMegView.h */,
+				2D957E151797F91A002F5073 /* MyMegView.m */,
 				2D957DF61797F12F002F5073 /* SimpleMegnifire */,
 				2D957DEF1797F12F002F5073 /* Frameworks */,
 				2D957DEE1797F12F002F5073 /* Products */,
@@ -68,6 +92,7 @@
 		2D957DEF1797F12F002F5073 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D957E1B1797FEF9002F5073 /* QuartzCore.framework */,
 				2D957DF01797F12F002F5073 /* UIKit.framework */,
 				2D957DF21797F12F002F5073 /* Foundation.framework */,
 				2D957DF41797F12F002F5073 /* CoreGraphics.framework */,
@@ -78,6 +103,7 @@
 		2D957DF61797F12F002F5073 /* SimpleMegnifire */ = {
 			isa = PBXGroup;
 			children = (
+				2D957E0D1797F150002F5073 /* MainWindow.xib */,
 				2D957DFF1797F12F002F5073 /* AppDelegate.h */,
 				2D957E001797F12F002F5073 /* AppDelegate.m */,
 				2D957DF71797F12F002F5073 /* Supporting Files */,
@@ -88,6 +114,9 @@
 		2D957DF71797F12F002F5073 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2D957E1D17980178002F5073 /* loopmask.png */,
+				2D957E191797FDA0002F5073 /* node.png */,
+				2D957E171797FAF8002F5073 /* 300_.png */,
 				2D957DF81797F12F002F5073 /* SimpleMegnifire-Info.plist */,
 				2D957DF91797F12F002F5073 /* InfoPlist.strings */,
 				2D957DFC1797F12F002F5073 /* main.m */,
@@ -154,6 +183,11 @@
 				2D957E031797F12F002F5073 /* Default.png in Resources */,
 				2D957E051797F12F002F5073 /* Default@2x.png in Resources */,
 				2D957E071797F12F002F5073 /* Default-568h@2x.png in Resources */,
+				2D957E0E1797F150002F5073 /* MainWindow.xib in Resources */,
+				2D957E131797F72D002F5073 /* MAinViewController.xib in Resources */,
+				2D957E181797FAF8002F5073 /* 300_.png in Resources */,
+				2D957E1A1797FDA0002F5073 /* node.png in Resources */,
+				2D957E1E17980178002F5073 /* loopmask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +200,8 @@
 			files = (
 				2D957DFD1797F12F002F5073 /* main.m in Sources */,
 				2D957E011797F12F002F5073 /* AppDelegate.m in Sources */,
+				2D957E121797F72D002F5073 /* MAinViewController.m in Sources */,
+				2D957E161797F91A002F5073 /* MyMegView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
